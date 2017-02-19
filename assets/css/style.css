@@ -1,0 +1,89 @@
+html,
+body {
+
+  height:100%;
+
+}
+
+body {
+ 
+  background-image: url(../images/background.jpg);
+  text-align: center;
+
+}
+
+#wrapper {
+  color: white;
+  margin:2.5% auto;
+  width:900px;
+  height: 95%;
+  box-sizing: border-box;
+
+}
+
+#sub-wrapper {
+  color: white;
+  position: relative;
+  top:15%;
+
+}
+
+iframe {width:100%; height:500px;}
+
+button {
+  color:white;
+  display:block;
+  width:50%;
+  height:20%;
+  margin: 0 auto;
+  border:none;
+  cursor: pointer;
+  background:transparent;
+  font-size: 42px;;
+
+}
+
+img {
+
+  height:200px;
+
+}
+
+h1 {
+
+  font-family: 'Geo', sans-serif;
+  font-size: 6.5em;
+  font-weight: bold;
+  color:blue;
+  padding-top: 2.5%;
+
+}
+
+h2 {
+
+  font-size: 35px;
+  margin-bottom: 25px;
+
+}
+
+h3 {
+
+  font-size: 25px;
+  margin-bottom: 10px;
+
+}
+
+#start {
+
+  margin-top: 10%;
+  border:2px solid blue;
+  background: pink;
+
+}
+
+button:hover {
+
+  border:2px solid blue;
+  background: pink;
+
+}
